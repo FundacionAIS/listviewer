@@ -15,6 +15,7 @@
 #' @param ... \code{list} of other options for \code{jsoneditor}.  This is a temporary way
 #'          of trying other options in \code{jsoneditor}.  In the future, this will be eliminated
 #'          in favor of specific, more self-documenting and helpful arguments.
+#' @param stringifyOptions \code{list} of options to pass onto perfectJson to format.
 #' @param width integer in pixels defining the width of the \code{div} container.
 #' @param height integer in pixels defining the height of the \code{div} container.
 #' @param elementId character to specify valid \code{CSS} id of the
